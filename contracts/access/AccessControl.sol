@@ -43,7 +43,7 @@ import {ERC165} from "../utils/introspection/ERC165.sol";
  *
  * WARNING: The `DEFAULT_ADMIN_ROLE` is also its own admin: it has permission to
  * grant and revoke this role. Extra precautions should be taken to secure
- * accounts that have been granted it. We recommend using {AccessControlDefaultAdminRules}
+ * accounts that have been granted it. We recommend using {AccessControlDefaultAdminRoles}
  * to enforce additional security measures for this role.
  */
 abstract contract AccessControl is Context, IAccessControl, ERC165 {
